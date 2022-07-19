@@ -1,0 +1,14 @@
+
+import random
+
+name   = input("Type your name below.\n")
+age    = input("Now type your age.\n")
+food   = input("What is your favorite food?\n")
+score  = random.randint(0,100)
+
+print(f"\nSince your age is: {age}.\nAnd your name is: {name}.\nPlus adding your favorite food: {food}\n\nWe can calculate that your life score for today is: {score}")
+
+if score < 50:
+  print("Damn that sucks! :(")
+else:
+  print("Hey that's pretty good! :D")
